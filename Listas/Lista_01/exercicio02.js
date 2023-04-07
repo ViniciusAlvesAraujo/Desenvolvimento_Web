@@ -1,5 +1,0 @@
-console.log("Vinicius - 24 anos")
-console.log("Alisson - 28 anos")
-console.log("Andrew - 17 anos")
-console.log("Wesler - 50 anos")
-console.log("Jackson - 27 anos")
