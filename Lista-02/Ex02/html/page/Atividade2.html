@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>DevsBank</title>
+    </head>
+
+    <body>
+        <img src="../img/DevsBank.jpg" width="900">
+
+        <br>
+
+    </body>
+
+    <script>
+        var nomeUsuario = window.prompt("Digite seu nome completo")
+        var idade = Number.parseInt(window.prompt("Digite sua idade"))
+        var endereço =  window.prompt ("Digite seu endereço")
+        var telefone = Number.parseInt (window.prompt("Digite seu telefone"))
+        var email = window.prompt ("Digite seu email")
+        var cpf = Number.parseInt (window.prompt("Digite seu cpf"))
+
+        document.writeln("Olá, " + nomeUsuario + ". Bem vindo ao banco DevsBank.")
+        document.writeln("<br>")
+
+        document.writeln("Você tem " + idade + " anos, e seu endereço é " + endereço)
+        document.writeln("<br>")
+
+        document.writeln("Seu email cadastrado no nosso banco é: " + email)
+        document.writeln("<br>")
+
+        document.writeln("Seu CPF é: " + cpf)
+        document.writeln("<br>")
+
+        document.writeln("Seu telefone para contato: " + telefone)
+        document.writeln("<br>")
+    </script>
+</html>
