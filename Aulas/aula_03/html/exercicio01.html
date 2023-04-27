@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var nomeEmpresa = prompt("Digite o nome da sua empresa:")
+    var cnpj = prompt("Digite o CNPJ da sua empresa:")
+    var tipoEmpresa = prompt("Qual o tipo de sua empresa")
+    var quantidadeFuncionarios = prompt("Quantos funcionarios trabalham na sua empresa?")
+    var lista = []
+
+    var empresa = {
+        nome: nomeEmpresa,
+        cnpj: cnpj,
+        TipoDaEmpresa: TipoEmpresa,
+        quantidadeDeFuncionarios: quantidadeFuncionarios
+    }
+
+    lista.push(empresa)
+
+    document.writeln("Nome da empresa: ", lista[0].nome)
+    document.writeln("Numero de CNPJ: ", lista[0].cnpj)
+    document.writeln("Tipo da empresa: ", lista[0].TipoDaEmpresa)
+    document.writeln("Numero de funcionarios: ", lista[0].quantidadeDeFuncionarios)
+
+</script>
+
+</html>
