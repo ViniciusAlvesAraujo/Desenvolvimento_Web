@@ -1,3 +1,9 @@
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
 .lanches {
     background-color: aliceblue;
     border: 2px solid black;
@@ -12,13 +18,16 @@
 }
 
 .nomeLanche {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: red;
     margin: 5px;
     
 }
 
 .lanches p {
-    color: black
+    color: black;
+    font-size: large;
+    
 }
 
 .preco {
