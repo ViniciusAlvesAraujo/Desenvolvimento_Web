@@ -1,0 +1,36 @@
+.lanches {
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 350px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.lanches img {
+    width: 340px;
+    margin: 5px;
+}
+
+.nomeLanche {
+    color: red;
+    margin: 5px;
+    
+}
+
+.lanches p {
+    color: black
+}
+
+.preco {
+    color: red;
+}
+.lanches button {
+    background-color: rgb(158, 158, 158);
+    color: black;
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}

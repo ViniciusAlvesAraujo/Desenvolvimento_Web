@@ -1,0 +1,15 @@
+#menu {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.item-menu {
+    font-size: 30px;
+    margin-left: 100px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    
+}

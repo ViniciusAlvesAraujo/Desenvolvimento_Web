@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+.item-menu {
+    color: rgb(160, 20, 20);
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,31 @@
+.produto {
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.produto img {
+    width: 340px;
+    margin: 5px;
+}
+
+.produto h3 {
+    color: blue;
+    margin: 5px;
+}
+
+.produto p {
+    color: blueviolet;
+}
+
+.produto button {
+    background-color: aquamarine;
+    color: black;
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
