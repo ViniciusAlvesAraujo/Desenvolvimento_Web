@@ -1,0 +1,9 @@
+<p>{{ mensagem }}</p>
+
+<span>Olá {{nome}} você tem {{idade}} anos e é um {{profissao}}</span>
+
+<div class="produtos" *ngFor="let produto of listaProdutos">
+  <p>Nome: {{produto.nome}}</p>
+  <p>Preço: {{produto.preco}}</p>
+  <p>Descrição: {{produto.descricao}}</p>
+</div>
